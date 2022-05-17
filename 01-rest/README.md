@@ -5,6 +5,10 @@ of this session, especially given the efforts of the Intersight
 team to provide a freely available set of [API Documentation](https://intersight.com/apidocs/introduction/overview/).
 However, a few highlights of the API are essential to this session.
 
+If, however, you'd like to simply jump to the "Hands On" portion
+of this section, simply
+[set up your Intersight credentials](./hands-on-exercise.md).
+
 ## OpenAPI Based
 First, the API is based on the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)
 which permits comprehensive definition of the various RESTful API
@@ -95,9 +99,3 @@ the API. The [digital signature](https://en.wikipedia.org/wiki/Digital_signature
 string that is generated is stored as a header attribute in the request.
 Intersight then validates the signature to ensure the author of the measure
 (valid signature) and that the contents are unaltered.
-
-## Hands On Portion
-
-In this section, attendees will be generating their API Key ID and API Secret
-Key in the Intersight portal. For the in-person event, each attendee will have
-received a set of credentials with which to log into the Intersight portal.
