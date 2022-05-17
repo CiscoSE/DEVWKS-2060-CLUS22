@@ -3,6 +3,7 @@
 #
 
 locals {
+  org_default_moid = data.intersight_organization_organization.default.results[0].moid
   server_admin_moid  = data.intersight_iam_role.server_administrator.results[0].moid
   authn_cisco_moid   = data.intersight_iam_idp_reference.authn_cisco_com.results[0].moid
   default_group_moid = data.intersight_resource_group.default.results[0].moid
