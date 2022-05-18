@@ -66,6 +66,12 @@ export TF_VAR_apikey=$(cat DEVWKS-2060-Default-KeyID.txt)
 export TF_VAR_secretkey="${PWD}/DEVWKS-2060-Default-Secret.txt"
 ```
 
+One additional step is required - defining your workshop "target_organization" based on your credentials. The command below requires you to provide the actual value indicated on your credential sheet, replacing "studentX".
+
+```bash
+export TF_VAR_target_organization=studentX
+```
+
 In production environments, please choose to conform to better security practices than this.
 
 Finally, we are going to test the credentials to ensure everything is set up correctly.
