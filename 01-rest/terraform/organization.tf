@@ -1,7 +1,5 @@
-## Get the MO data for the default organization in the account.
-# /api/v1/organization/Organizations$filter=(Name eq 'default')
 data "intersight_organization_organization" "default" {
-    name = "default"
+    name = var.target_organization
 }
 
 output "org_default_moid" {
