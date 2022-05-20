@@ -53,6 +53,13 @@ resource "intersight_iam_resource_roles" "student" {
       class_id              = "mo.MoRef"
       additional_properties = ""
       selector              = null
+    },
+    {
+      moid                  = var.ucs_domain_admin_moid
+      object_type           = "iam.Role"
+      class_id              = "mo.MoRef"
+      additional_properties = ""
+      selector              = null
     }
   ]
 }

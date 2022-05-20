@@ -13,6 +13,11 @@ variable "server_admin_moid" {
     type = string
 }
 
+variable "ucs_domain_admin_moid" {
+    description = "MOID of iam.Role object mapped to 'UCS Domain Administrator' privileges"
+    type = string
+}
+
 variable "authn_cisco_moid" {
     description = "MOID of iam.IdpReference object mapped to 'cisco.com' authentication"
     type = string
