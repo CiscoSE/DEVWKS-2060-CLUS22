@@ -8,7 +8,7 @@ resource "intersight_organization_organization" "student" {
 
   resource_groups = [
     {
-      moid                  = var.default_resource_group_moid
+      moid                  = var.resource_group_moid
       object_type           = "resource.Group"
       class_id              = "mo.MoRef"
       additional_properties = ""

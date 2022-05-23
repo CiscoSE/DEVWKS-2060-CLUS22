@@ -23,7 +23,7 @@ variable "authn_cisco_moid" {
     type = string
 }
 
-variable "default_resource_group_moid" {
-    description = "MOID of resource.Group object mapped to the default RG"
+variable "resource_group_moid" {
+    description = "MOID of resource.Group object mapped to the workshop RG"
     type = string
 }
