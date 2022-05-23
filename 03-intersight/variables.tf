@@ -23,4 +23,5 @@ variable "intersight_sernum" {
 variable "dcnm_password" {
   description = "Password for the local DCNM user"
   type        = string
+  default     = "CHANGEME"
 }
