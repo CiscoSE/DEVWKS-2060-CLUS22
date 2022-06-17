@@ -53,7 +53,7 @@ You will save the API Key Id by copying it to the clipboard and then saving it t
 cat > DEVWKS-2060-Default-KeyID.txt
 ```
 
-Paste the API Key ID value in the terminal (Ctrl-V) and then leave the edit session (Ctrl-D).
+Paste the API Key ID value in the terminal (Ctrl-V on PC, Cmd-V on Mac, right-click->Paste on Linux) and then leave the edit session (Ctrl-D).
 
 Next, you will save the API Secret Key. Normally you would download it to the proper location. For this session, we'll copy the contents to the clipboard like we did above and paste them into the correct file.
 
@@ -61,7 +61,7 @@ Next, you will save the API Secret Key. Normally you would download it to the pr
 cat > DEVWKS-2060-Default-Secret.txt
 ```
 
-Paste the API Secret Key File contents in the terminal (Ctrl-V) and then leave the edit session (Ctrl-D).
+Paste the API Secret Key File contents in the terminal (Ctrl-V on PC, Cmd-V on Mac, right-click->Paste on Linux) and then leave the edit session (Ctrl-D).
 
 Those actions store the credentials for the duration of this session. However, the Terraform we will be running requires those contents to be stored in environment variables, which we'll set as follows:
 
